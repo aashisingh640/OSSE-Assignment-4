@@ -14,6 +14,13 @@ app.all('*', (req, res, next) => {
     })
 })
 
+app.get('/users', (req, res, next) => {
+    res.send(`1.Sohail Azam
+    2. Aashi Singh
+    3. SUMANA SAHA
+    `)
+})
+
 app.listen(process.env.PORT || 3000, () => {
     console.log('service listening on ', process.env.PORT || 3000);
 })
