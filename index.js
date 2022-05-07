@@ -17,7 +17,7 @@ app.all('*', (req, res, next) => {
 app.get('/users', (req, res, next) => {
     res.send(`1.Sohail Azam
     2. Aashi Singh
-    3. SUMANA SAHA
+    3. Sumana Saha
     4. Sankar Saravanan
     `)
 })
